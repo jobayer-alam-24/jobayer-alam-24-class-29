@@ -43,7 +43,7 @@ function capitalize(){
 }
 console.log(capitalize());
 
-// function 40% discount 
+// function discount count
 function calculateDiscount(originalPrice, discount) {
     let discountAmount = originalPrice * (discount / 100);
     let discountedPrice = originalPrice - discountAmount;
